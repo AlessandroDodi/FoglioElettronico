@@ -1,7 +1,7 @@
 package Cell;
 public class NumericCell extends Cell<Double>{
-    public NumericCell(int row, int col, String value) {
-        super(row, col, value);
+    public NumericCell(int row, int col, String value, Cell<?>[][] m) {
+        super(row, col, value, m);
     }
 
     @Override
@@ -16,8 +16,13 @@ public class NumericCell extends Cell<Double>{
 
     @Override
     public boolean isValid(String value) {
-        // TODO Auto-generated method stub
-        return false;
+        try {
+            Double.parseDouble(value.toString()); //.replace(',', '.')
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+        
     }
 
 }

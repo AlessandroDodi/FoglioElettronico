@@ -1,0 +1,99 @@
+//value.subSequence(1, endIndex) //(([A-Z]|[a-z])([0-9][0-9])|(\+|\-)(.*)
+
+
+/*
+        v.getClass()
+        
+        switch(operator) {
+            case Addition:
+                return op1+op2;
+            case Subtraction:
+                return op1-op2;
+            default:*/
+                //return 0.00;
+
+
+
+// f (s.contains("+")) {
+//     try {
+//         Double op1 = Double.parseDouble(value.subSequence(1, value.indexOf("+")).toString());
+//         return true;
+
+//     } catch (Exception e) {
+//         return false;
+//     }
+// } else if(s.contains("-")) {
+//     try {
+//         Double op1 = Double.parseDouble(value.subSequence(1, value.indexOf("-")).toString());
+//         return true;
+//     } catch (Exception e) {
+//         return false;
+//     }
+// }
+// return false;
+    /*
+    public Double getDataFromString(String data) {
+        try {
+            Double val = Double.parseDouble(value.toString());
+            return val;
+        } catch (Exception e) {
+        
+        }
+        
+    }*/
+      //     /*
+        //     // value.matches(regex)
+        //     try {
+        //         Double op1 = Double.parseDouble(value.subSequence(1, value.indexOf("+")).toString());
+        //     } catch (Exception e) {
+
+        //         if (value.substring(1, 2).toUpperCase().matches("[A-Z]")) {
+        //             int row1 = value.charAt(1) - 'A';
+        //             System.out.println(row1);
+        //         }
+        //         /*
+        //          * if(value.charAt(1))
+        //          * if(value.contains("+")) {
+        //          * value.subSequence(1, value.indexOf("+")).
+        //          * } else if (value.contains("-")) {
+        //          * 
+        //          * }
+        //          */
+
+        //         // System.out.println(value.subSequence(1, value.indexOf("+")));
+        //         // return true;
+        //     }
+
+        //     return true;
+        // }
+        // return true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /** restituisce il nome della colonna *//*
+    public String getColumnName(int col) {
+        return Character.toString(ColName[col]);
+    }public Class getColumnClass(int col) {
+        return getValueAt(0,col).getClass();
+    }*/
+            //this.getColumnModel().getColumn(0).sizeWidthToFit();
+        //this.getColumnModel().getColumn(0).sizeWidthToFit();
+        //this.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+        //this.getColumnModel().getColumn(0).setWidth(45);
+        //this.getColumnModel().getColumns().setPreferredWidth(); 
+        //for (int i = 0; i < 26; i++)
+          //  this.getColumnModel().getColumn(i).setPreferredWidth(175);
+        //this.setRowHeight(0, 30);
+        //this.setLayout(new BorderLayout());

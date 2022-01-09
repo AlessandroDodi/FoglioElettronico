@@ -4,10 +4,13 @@ public abstract class Cell<TypeofCellData> {
     int col;
     String value;
     TypeofCellData info;
-    public Cell(int row, int col, String value) {
+    Cell<?>[][] m;
+    public Cell(int row, int col, String value, Cell<?>[][] m) {
+        this.m = m;
         setRow(row);
         setCol(col);
         setInfoAndValue(value);
+        
     }
     //set
     public void setRow(int row) {

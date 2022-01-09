@@ -1,5 +1,4 @@
 package Graphics;
-
 import javax.swing.*;
 
 public class MainFrame extends JFrame {
@@ -10,7 +9,7 @@ public class MainFrame extends JFrame {
     public MainFrame(String titolo) {
         super(titolo);
         setBounds(0, 0, 900, 900);
-        setLocationRelativeTo(null);
+        //setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         MainPanel panel = new MainPanel();
         this.setVisible(true);

@@ -15,12 +15,14 @@ public class MainPanel extends JPanel {
         Cell<?>[][] m = new Cell[numRow][numCol];
         for(int i = 0; i < numRow; i++) 
             for(int j = 0; j < numCol; j++)
-                m[i][j] = new TextualCell(i, j, "v");
+                m[i][j] = new TextualCell(i, j, "v", m);
         setBackground(Color.BLACK);       
         TableModel dataModel = new MainTableModel(m, numRow, numCol);
         MainJTable t = new MainJTable(dataModel);
         MainScrollPane p = new MainScrollPane(t);
+        InfoField f = new InfoField();
         //this.add(new JScrollPane(t));
+        this.add(f);
         this.add(p, BorderLayout.CENTER);
     }
     
